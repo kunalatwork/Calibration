@@ -6,6 +6,10 @@ formatter.feature({
   "id": "add-new-calibration",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 70467101800,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 2,
   "name": "Verify all fields with valid Data",
@@ -68,19 +72,23 @@ formatter.match({
   "location": "StepDefinations.open_browser_and_enter_url()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 14552235800,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinations.check_Login_with_valid_username_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2077529300,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinations.fill_all_required_fields()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 42805536800,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate option with text: \nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.0.0-beta-3\u0027, revision: \u00275d108f9a67\u0027\nSystem info: host: \u0027LAKHAN\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat StepDefination.StepDefinations.fill_all_required_fields(StepDefinations.java:152)\r\n\tat ✽.Then fill all required fields(Feature/Calibration.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "StepDefinations.click_on_save_button()"
@@ -124,6 +132,10 @@ formatter.match({
 formatter.result({
   "status": "skipped"
 });
+formatter.before({
+  "duration": 13862831400,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 14,
   "name": "Verify Calibation Event with Valid Data",
@@ -151,18 +163,21 @@ formatter.match({
   "location": "StepDefinations.enter_valid_Event_name_and_Select_Client()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 34600,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinations.select_Calibration_and_fill_Calibration_window()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 27300,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinations.select_user_and_click_on_save_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 31000,
+  "status": "passed"
 });
 });

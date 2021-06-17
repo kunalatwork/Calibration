@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions( glue = "StepDefination", 
                  features="Feature/Calibration.feature",
-                 dryRun=true,
+                 dryRun=false,
                  monochrome=true,
                  plugin= {"html:Calibration/TestReport.html"}
 		        )
